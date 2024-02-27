@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal data</title>
+</head>
+<body>
+    <form action="" style="background-color: #4F6F52;">
+        
+        <fieldset>
+            <legend style="background-color: #86A789;">personal data</legend>
+            
+            <fieldset style="background-color: #739072;">
+                <legend style="background-color: #86A789;"> <br> your name <br><br> </legend>
+                <table>
+                    <tbody>
+                
+                <tr>
+                    
+                    <td> <label for="fname">first name </label></td>
+                    <td>:</td>
+                    <td><input type="text" id="fname" name="first name" required></td>
+                   
+                </tr>
+                <tr>
+                    <td><label for="sname">second name </label></td>
+                    <td>:</td>
+                    <td><input type="text" id="sname" name="second name" required></td>
+                </tr>
+                
+            </tbody>
+            </table>
+            </fieldset>
+            <br>
+            <br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="phone">your phone </label></td>
+                        <td>:</td>
+                        <td><input type="number" id="phone" name="your phone"></td>
+                    </tr>
+                    <br>
+                    <br>
+                    <tr>
+                        <td><label for="email">email</label></td>
+                        <td>:</td>
+                        <td><input type="email" id="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="pass">password</label></td>
+                        <td>:</td>
+                        <td><input type="password" id="pass" placeholder="pass more than 8"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="rpass">re-password</label></td>
+                        <td>:</td>
+                        <td><input type="password" id="rpass" placeholder="pass more than 8"></td>
+                    </tr>
+                </tbody>
+            </table>
+                <br>
+                <br>
+                <input id="male" type="radio" name="gender" value="0" checked>
+                <label for="male">male</label>
+                <br>
+                <input id="female" type="radio" name="gender" value="1">
+                <label for="female">female</label>
+                <br>
+                <br>
+                <input type="checkbox" name="cer" id="student" value="student" checked>
+                <label for="student">student</label>
+                <br>
+                <input type="checkbox" name="cer" id="graduated" value="graduated" >
+                <label for="graduated">graduated</label>
+                <br>
+                <select name="university">
+                <option hidden>choose your university%academy</option>
+                <optgroup label="university groub">
+                <option value="AUC">AUC</option>
+                <option value="BUC">BUC</option>
+                <option value="ZAG">ZAG</option>
+                </optgroup>
+                <optgroup disabled label="academy groub">
+                <option value="nasrcity">nasrcity</option>
+                <option value="rabaa">rabaa</option>
+                <option value="zyton">zyton</option>
+                </optgroup>
+                
+                </select>
+                <br>
+                <button type="submit"><img src="submit.jpg" alt="submit photo" width="100px"></button>
+            </fieldset>
+
+        </form>
+</body>
+</html>
